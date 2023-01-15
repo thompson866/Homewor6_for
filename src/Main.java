@@ -60,7 +60,8 @@ public class Main {
         System.out.println("Task 10");
         int number = 2;
         for (int num = 1; num < 11; num++) {
-            System.out.printf("%d * %d = %d%n", number, num, number * num);
+            int result = number * num;
+            System.out.println(number + "*"+num + "=" +result);;
         }
     }
 }
